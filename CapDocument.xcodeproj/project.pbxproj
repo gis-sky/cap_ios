@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734DB76D18D7445A00A70A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DB76C18D7445A00A70A86 /* Foundation.framework */; };
+		734DB77218D7445A00A70A86 /* CapDocument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 734DB77118D7445A00A70A86 /* CapDocument.h */; };
+		734DB77418D7445A00A70A86 /* CapDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 734DB77318D7445A00A70A86 /* CapDocument.m */; };
+		734DB77B18D7445B00A70A86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DB77A18D7445B00A70A86 /* XCTest.framework */; };
+		734DB77C18D7445B00A70A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DB76C18D7445A00A70A86 /* Foundation.framework */; };
+		734DB77E18D7445B00A70A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DB77D18D7445B00A70A86 /* UIKit.framework */; };
+		734DB78118D7445B00A70A86 /* libCapDocument.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DB76918D7445A00A70A86 /* libCapDocument.a */; };
+		734DB78718D7445B00A70A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 734DB78518D7445B00A70A86 /* InfoPlist.strings */; };
+		734DB78918D7445B00A70A86 /* CapDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 734DB78818D7445B00A70A86 /* CapDocumentTests.m */; };
+		734DB79418D748DC00A70A86 /* CapValidateResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 734DB79318D748DC00A70A86 /* CapValidateResult.m */; };
+		734DB79518D748DC00A70A86 /* CapValidateResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 734DB79318D748DC00A70A86 /* CapValidateResult.m */; };
+		735C27F618D7F3740058330E /* CapValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C27F518D7F3740058330E /* CapValidator.m */; };
+		735C27F718D7F3740058330E /* CapValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C27F518D7F3740058330E /* CapValidator.m */; };
+		735C27FD18D813260058330E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 735C27FC18D813260058330E /* libxml2.dylib */; };
+		735C280018D92FCA0058330E /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C27FF18D92FCA0058330E /* Info.m */; };
+		735C280118D92FCA0058330E /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C27FF18D92FCA0058330E /* Info.m */; };
+		735C280418D937C50058330E /* EventCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280318D937C50058330E /* EventCode.m */; };
+		735C280518D937C50058330E /* EventCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280318D937C50058330E /* EventCode.m */; };
+		735C280818D9381C0058330E /* GeoCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280718D9381C0058330E /* GeoCode.m */; };
+		735C280918D9381C0058330E /* GeoCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280718D9381C0058330E /* GeoCode.m */; };
+		735C280C18D95DFC0058330E /* Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280B18D95DFC0058330E /* Parameter.m */; };
+		735C280D18D95DFC0058330E /* Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280B18D95DFC0058330E /* Parameter.m */; };
+		735C281018D95E8C0058330E /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280F18D95E8C0058330E /* Resource.m */; };
+		735C281118D95E8C0058330E /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C280F18D95E8C0058330E /* Resource.m */; };
+		735C281418D961CC0058330E /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281318D961CC0058330E /* Area.m */; };
+		735C281518D961CC0058330E /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281318D961CC0058330E /* Area.m */; };
+		735C281818D968F60058330E /* CapDocumentSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281718D968F60058330E /* CapDocumentSetting.m */; };
+		735C281918D968F60058330E /* CapDocumentSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281718D968F60058330E /* CapDocumentSetting.m */; };
+		735C281C18D970B80058330E /* GeoCodeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281B18D970B80058330E /* GeoCodeUtility.m */; };
+		735C281D18D970B80058330E /* GeoCodeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 735C281B18D970B80058330E /* GeoCodeUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734DB77F18D7445B00A70A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734DB76118D7445A00A70A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734DB76818D7445A00A70A86;
+			remoteInfo = CapDocument;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		734DB76718D7445A00A70A86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				734DB77218D7445A00A70A86 /* CapDocument.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		734DB76918D7445A00A70A86 /* libCapDocument.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCapDocument.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		734DB76C18D7445A00A70A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		734DB77018D7445A00A70A86 /* CapDocument-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapDocument-Prefix.pch"; sourceTree = "<group>"; };
+		734DB77118D7445A00A70A86 /* CapDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapDocument.h; sourceTree = "<group>"; };
+		734DB77318D7445A00A70A86 /* CapDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapDocument.m; sourceTree = "<group>"; };
+		734DB77918D7445B00A70A86 /* CapDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		734DB77A18D7445B00A70A86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		734DB77D18D7445B00A70A86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		734DB78418D7445B00A70A86 /* CapDocumentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapDocumentTests-Info.plist"; sourceTree = "<group>"; };
+		734DB78618D7445B00A70A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		734DB78818D7445B00A70A86 /* CapDocumentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapDocumentTests.m; sourceTree = "<group>"; };
+		734DB79218D748DC00A70A86 /* CapValidateResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapValidateResult.h; sourceTree = "<group>"; };
+		734DB79318D748DC00A70A86 /* CapValidateResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapValidateResult.m; sourceTree = "<group>"; };
+		735C27F418D7F3740058330E /* CapValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapValidator.h; sourceTree = "<group>"; };
+		735C27F518D7F3740058330E /* CapValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapValidator.m; sourceTree = "<group>"; };
+		735C27FC18D813260058330E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		735C27FE18D92FCA0058330E /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		735C27FF18D92FCA0058330E /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		735C280218D937C50058330E /* EventCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCode.h; sourceTree = "<group>"; };
+		735C280318D937C50058330E /* EventCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCode.m; sourceTree = "<group>"; };
+		735C280618D9381C0058330E /* GeoCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCode.h; sourceTree = "<group>"; };
+		735C280718D9381C0058330E /* GeoCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCode.m; sourceTree = "<group>"; };
+		735C280A18D95DFC0058330E /* Parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameter.h; sourceTree = "<group>"; };
+		735C280B18D95DFC0058330E /* Parameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameter.m; sourceTree = "<group>"; };
+		735C280E18D95E8C0058330E /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		735C280F18D95E8C0058330E /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resource.m; sourceTree = "<group>"; };
+		735C281218D961CC0058330E /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		735C281318D961CC0058330E /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		735C281618D968F60058330E /* CapDocumentSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapDocumentSetting.h; sourceTree = "<group>"; };
+		735C281718D968F60058330E /* CapDocumentSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapDocumentSetting.m; sourceTree = "<group>"; };
+		735C281A18D970B80058330E /* GeoCodeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCodeUtility.h; sourceTree = "<group>"; };
+		735C281B18D970B80058330E /* GeoCodeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCodeUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734DB76618D7445A00A70A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C27FD18D813260058330E /* libxml2.dylib in Frameworks */,
+				734DB76D18D7445A00A70A86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734DB77618D7445B00A70A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734DB77B18D7445B00A70A86 /* XCTest.framework in Frameworks */,
+				734DB78118D7445B00A70A86 /* libCapDocument.a in Frameworks */,
+				734DB77E18D7445B00A70A86 /* UIKit.framework in Frameworks */,
+				734DB77C18D7445B00A70A86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734DB76018D7445A00A70A86 = {
+			isa = PBXGroup;
+			children = (
+				734DB76E18D7445A00A70A86 /* CapDocument */,
+				734DB78218D7445B00A70A86 /* CapDocumentTests */,
+				734DB76B18D7445A00A70A86 /* Frameworks */,
+				734DB76A18D7445A00A70A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734DB76A18D7445A00A70A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734DB76918D7445A00A70A86 /* libCapDocument.a */,
+				734DB77918D7445B00A70A86 /* CapDocumentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734DB76B18D7445A00A70A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735C27FC18D813260058330E /* libxml2.dylib */,
+				734DB76C18D7445A00A70A86 /* Foundation.framework */,
+				734DB77A18D7445B00A70A86 /* XCTest.framework */,
+				734DB77D18D7445B00A70A86 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		734DB76E18D7445A00A70A86 /* CapDocument */ = {
+			isa = PBXGroup;
+			children = (
+				734DB77118D7445A00A70A86 /* CapDocument.h */,
+				734DB77318D7445A00A70A86 /* CapDocument.m */,
+				735C27F418D7F3740058330E /* CapValidator.h */,
+				735C27F518D7F3740058330E /* CapValidator.m */,
+				734DB79218D748DC00A70A86 /* CapValidateResult.h */,
+				734DB79318D748DC00A70A86 /* CapValidateResult.m */,
+				735C280218D937C50058330E /* EventCode.h */,
+				735C280318D937C50058330E /* EventCode.m */,
+				735C280618D9381C0058330E /* GeoCode.h */,
+				735C280718D9381C0058330E /* GeoCode.m */,
+				735C27FE18D92FCA0058330E /* Info.h */,
+				735C27FF18D92FCA0058330E /* Info.m */,
+				735C280A18D95DFC0058330E /* Parameter.h */,
+				735C280B18D95DFC0058330E /* Parameter.m */,
+				735C280E18D95E8C0058330E /* Resource.h */,
+				735C280F18D95E8C0058330E /* Resource.m */,
+				735C281218D961CC0058330E /* Area.h */,
+				735C281318D961CC0058330E /* Area.m */,
+				734DB76F18D7445A00A70A86 /* Supporting Files */,
+				735C281618D968F60058330E /* CapDocumentSetting.h */,
+				735C281718D968F60058330E /* CapDocumentSetting.m */,
+				735C281A18D970B80058330E /* GeoCodeUtility.h */,
+				735C281B18D970B80058330E /* GeoCodeUtility.m */,
+			);
+			path = CapDocument;
+			sourceTree = "<group>";
+		};
+		734DB76F18D7445A00A70A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				734DB77018D7445A00A70A86 /* CapDocument-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		734DB78218D7445B00A70A86 /* CapDocumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				734DB78818D7445B00A70A86 /* CapDocumentTests.m */,
+				734DB78318D7445B00A70A86 /* Supporting Files */,
+			);
+			path = CapDocumentTests;
+			sourceTree = "<group>";
+		};
+		734DB78318D7445B00A70A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				734DB78418D7445B00A70A86 /* CapDocumentTests-Info.plist */,
+				734DB78518D7445B00A70A86 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734DB76818D7445A00A70A86 /* CapDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734DB78C18D7445B00A70A86 /* Build configuration list for PBXNativeTarget "CapDocument" */;
+			buildPhases = (
+				734DB76518D7445A00A70A86 /* Sources */,
+				734DB76618D7445A00A70A86 /* Frameworks */,
+				734DB76718D7445A00A70A86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapDocument;
+			productName = CapDocument;
+			productReference = 734DB76918D7445A00A70A86 /* libCapDocument.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		734DB77818D7445B00A70A86 /* CapDocumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734DB78F18D7445B00A70A86 /* Build configuration list for PBXNativeTarget "CapDocumentTests" */;
+			buildPhases = (
+				734DB77518D7445B00A70A86 /* Sources */,
+				734DB77618D7445B00A70A86 /* Frameworks */,
+				734DB77718D7445B00A70A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734DB78018D7445B00A70A86 /* PBXTargetDependency */,
+			);
+			name = CapDocumentTests;
+			productName = CapDocumentTests;
+			productReference = 734DB77918D7445B00A70A86 /* CapDocumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734DB76118D7445A00A70A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NCDR;
+			};
+			buildConfigurationList = 734DB76418D7445A00A70A86 /* Build configuration list for PBXProject "CapDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 734DB76018D7445A00A70A86;
+			productRefGroup = 734DB76A18D7445A00A70A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734DB76818D7445A00A70A86 /* CapDocument */,
+				734DB77818D7445B00A70A86 /* CapDocumentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734DB77718D7445B00A70A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734DB78718D7445B00A70A86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734DB76518D7445A00A70A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C281418D961CC0058330E /* Area.m in Sources */,
+				734DB77418D7445A00A70A86 /* CapDocument.m in Sources */,
+				735C280C18D95DFC0058330E /* Parameter.m in Sources */,
+				735C280018D92FCA0058330E /* Info.m in Sources */,
+				735C280818D9381C0058330E /* GeoCode.m in Sources */,
+				734DB79418D748DC00A70A86 /* CapValidateResult.m in Sources */,
+				735C281818D968F60058330E /* CapDocumentSetting.m in Sources */,
+				735C281C18D970B80058330E /* GeoCodeUtility.m in Sources */,
+				735C281018D95E8C0058330E /* Resource.m in Sources */,
+				735C280418D937C50058330E /* EventCode.m in Sources */,
+				735C27F618D7F3740058330E /* CapValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734DB77518D7445B00A70A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735C281518D961CC0058330E /* Area.m in Sources */,
+				734DB78918D7445B00A70A86 /* CapDocumentTests.m in Sources */,
+				735C280D18D95DFC0058330E /* Parameter.m in Sources */,
+				735C280118D92FCA0058330E /* Info.m in Sources */,
+				735C280918D9381C0058330E /* GeoCode.m in Sources */,
+				734DB79518D748DC00A70A86 /* CapValidateResult.m in Sources */,
+				735C281918D968F60058330E /* CapDocumentSetting.m in Sources */,
+				735C281D18D970B80058330E /* GeoCodeUtility.m in Sources */,
+				735C281118D95E8C0058330E /* Resource.m in Sources */,
+				735C280518D937C50058330E /* EventCode.m in Sources */,
+				735C27F718D7F3740058330E /* CapValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734DB78018D7445B00A70A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734DB76818D7445A00A70A86 /* CapDocument */;
+			targetProxy = 734DB77F18D7445B00A70A86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		734DB78518D7445B00A70A86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734DB78618D7445B00A70A86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734DB78A18D7445B00A70A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		734DB78B18D7445B00A70A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734DB78D18D7445B00A70A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CapDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapDocument/CapDocument-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Debug;
+		};
+		734DB78E18D7445B00A70A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CapDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapDocument/CapDocument-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Release;
+		};
+		734DB79018D7445B00A70A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapDocument/CapDocument-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CapDocumentTests/CapDocumentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		734DB79118D7445B00A70A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CapDocument/CapDocument-Prefix.pch";
+				INFOPLIST_FILE = "CapDocumentTests/CapDocumentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734DB76418D7445A00A70A86 /* Build configuration list for PBXProject "CapDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734DB78A18D7445B00A70A86 /* Debug */,
+				734DB78B18D7445B00A70A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734DB78C18D7445B00A70A86 /* Build configuration list for PBXNativeTarget "CapDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734DB78D18D7445B00A70A86 /* Debug */,
+				734DB78E18D7445B00A70A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734DB78F18D7445B00A70A86 /* Build configuration list for PBXNativeTarget "CapDocumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734DB79018D7445B00A70A86 /* Debug */,
+				734DB79118D7445B00A70A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734DB76118D7445A00A70A86 /* Project object */;
+}
